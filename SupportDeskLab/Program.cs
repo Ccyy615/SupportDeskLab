@@ -193,7 +193,7 @@ namespace SupportDeskLab
                                 tempQ.Enqueue(ticket);
                             }
                         }
-                        Tickets = tempQ; // Reassign the filtered queue back to Tickets
+                        Tickets = tempQ;
                         Console.WriteLine("Undo add new ticket");
                         break;
                     }
